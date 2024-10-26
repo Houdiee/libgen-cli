@@ -89,7 +89,7 @@ def display_table(data):
 def download_file(url):
     try:
         print(f"{GREEN}Downloading file...{RESET}")
-        subprocess.run(["curl", "-O", "--progress-bar", url], check=True)
+        subprocess.run(["wget", "--quiet", "--show-progress", url], check=True)
         print(f"{GREEN}Download completed!{RESET}")
         print()
     except subprocess.CalledProcessError:
