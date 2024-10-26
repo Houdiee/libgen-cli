@@ -6,6 +6,9 @@
 ## Overview
 A stupid simple command-line interface for the infamous website Libgen. Allows to quickly search and install any file from the terminal without the need of a browser. It can also be argued that the cli interface is more secure, since it directly uses ![Libgen's api](https://github.com/Factual0367/libgen-api-enhanced) which means that as the end user, you do not have to worry about scam links, fishy redirects or other unwanted trackers.
 
+### But aren't there already other Libgen-cli tools out there?
+Yes. But they are not very good.
+
 ## Prerequisites
 * wget
 
