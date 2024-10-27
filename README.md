@@ -1,4 +1,4 @@
-# Libgen CLI - books from the terminal
+# Libgen CLI - download books from the terminal
 
 ## Showcase
 ![](./showcase.gif)
