@@ -29,3 +29,7 @@ After necessary modules are installed, you can convert the python file to an exe
 * first clone the repo: ```git clone https://github.com/Houdiee/libgen-cli```
 * then install pyinstaller: ```pip install --user pyinstaller```
 * finally convert the .py file and place in system PATH: ```pyinstaller --onefile ~/libgen-cli/libgen.py```
+
+
+## Nix users
+You can simply run ```nix-shell``` and then run the project normally with ```python3 libgen.py```.
